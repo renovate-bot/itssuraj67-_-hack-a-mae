@@ -1,0 +1,156 @@
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\suraj\JavaProjects\hack-a-mae> echo $RENOVATE_TOKEN
+PS C:\Users\suraj\JavaProjects\hack-a-mae> npx renovate
+FATAL: Fine-grained Personal Access Tokens do not support the GitHub GraphQL API and cannot be used with Renovate.
+PS C:\Users\suraj\JavaProjects\hack-a-mae> npx renovate --autodiscover
+ INFO: Autodiscovered repositories
+       "length": 4,
+       "repositories": [
+         "FannieMaeOpenSource/hack-a-mae",
+         "itssuraj67/dI-tutorial",
+         "itssuraj67/hack-a-mae",
+         "itssuraj67/suraj-spring-boot"
+       ]
+ INFO: Repository started (repository=FannieMaeOpenSource/hack-a-mae)
+       "renovateVersion": "35.114.0"
+ERROR: Repository has unknown error (repository=FannieMaeOpenSource/hack-a-mae)
+       "err": {
+         "task": {
+           "commands": [
+             "push",
+             "origin",
+             "renovate/configure:renovate/configure",
+             "--force-with-lease",
+             "-u",
+             "--no-verify",
+             "--verbose",
+             "--porcelain"
+           ],
+           "format": "utf-8",
+           "parser": "[function]"
+         },
+         "message": "remote: Permission to FannieMaeOpenSource/hack-a-mae.git denied to itssuraj67.\nfatal: unable to access 'https://github.com/FannieMaeOpenSource/hack-a-mae.git/': The requested URL returned error: 403\nPushing to https://github.com/FannieMaeOpenSource/hack-a-mae.git\n",
+         "stack": "Error: remote: Permission to FannieMaeOpenSource/hack-a-mae.git denied to itssuraj67.\nfatal: unable to access 'https://github.com/FannieMaeOpenSource/hack-a-mae.git/': The requested URL returned error: 403\nPus
+hing to https://github.com/FannieMaeOpenSource/hack-a-mae.git\n\n    at Object.action (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\plugins\\error-detection.plugin.ts:42:
+29)\n    at PluginStore.exec (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\plugins\\plugin-store.ts:29:29)\n    at C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05ee
+ecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\runners\\git-executor-chain.ts:127:42\n    at new Promise (<anonymous>)\n    at GitExecutorChain.handleTaskData (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0
+\\node_modules\\simple-git\\src\\lib\\runners\\git-executor-chain.ts:124:14)\n    at GitExecutorChain.<anonymous> (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\runners\\g
+it-executor-chain.ts:100:40)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\dist\\cjs\\index.js:55:24)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+       }
+ INFO: Repository finished (repository=FannieMaeOpenSource/hack-a-mae)
+       "cloned": true,
+       "durationMs": 39492
+ INFO: Repository started (repository=itssuraj67/dI-tutorial)
+       "renovateVersion": "35.114.0"
+ INFO: Repository is a fork and not manually configured - skipping (repository=itssuraj67/dI-tutorial)
+ INFO: Repository finished (repository=itssuraj67/dI-tutorial)
+       "cloned": false,
+       "durationMs": 1048
+ INFO: Repository started (repository=itssuraj67/hack-a-mae)
+       "renovateVersion": "35.114.0"
+ INFO: Repository is a fork and not manually configured - skipping (repository=itssuraj67/hack-a-mae)
+ INFO: Repository finished (repository=itssuraj67/hack-a-mae)
+       "cloned": false,
+       "durationMs": 1414
+ INFO: Repository started (repository=itssuraj67/suraj-spring-boot)
+       "renovateVersion": "35.114.0"
+ INFO: Repository is a fork and not manually configured - skipping (repository=itssuraj67/suraj-spring-boot)
+ INFO: Repository finished (repository=itssuraj67/suraj-spring-boot)
+       "cloned": false,
+       "durationMs": 1562
+ INFO: Renovate is exiting with a non-zero code due to the following logged errors
+       "loggerErrors": [
+         {
+           "name": "renovate",
+           "level": 50,
+           "logContext": "C7jzg-iAWQl6Y5HFGuW58",
+           "repository": "FannieMaeOpenSource/hack-a-mae",
+                 "--force-with-lease",
+                 "-u",
+                 "--no-verify",
+                 "--verbose",
+                 "--porcelain"
+               ],
+               "format": "utf-8",
+               "parser": "[function]"
+             },
+             "message": "remote: Permission to FannieMaeOpenSource/hack-a-mae.git denied to itssuraj67.\nfatal: unable to access 'https://github.com/FannieMaeOpenSource/hack-a-mae.git/': The requested URL returned error: 403\nPushing to https://github.com/FannieMaeOpenSource/hack-a-mae.git\n",
+             "stack": "Error: remote: Permission to FannieMaeOpenSource/hack-a-mae.git denied to itssuraj67.\nfatal: unable to access 'https://github.com/FannieMaeOpenSource/hack-a-mae.git/': The requested URL returned error: 403\nPushing to https://github.com/FannieMaeOpenSource/hack-a-mae.git\n\n    at Object.action (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\plugins\\error-detection.plugin.ts:42:29)\n    at PluginStore.exec (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\plugins\\plugin-store.ts:29:29)\n    at C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\runners\\git-executor-chain.ts:127:42\n    at new Promise (<anonymous>)\n    at GitExecutorChain.handleTaskData (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\runners\\git-executor-chain.ts:124:14)\n    at GitExecutorChain.<anonymous> (C:\\Users\\suraj\\AppData\\Local\\npm-cache\\_npx\\05eeecd92f4e18e0\\node_modules\\simple-git\\src\\lib\\runner       }
+ INFO: Onboarding PR created (repository=itssuraj67/hack-a-mae)
+       "pr": "Pull Request #1"
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Repository finished (repository=itssuraj67/hack-a-mae)
+       "cloned": true,
+       "durationMs": 18748
+PS C:\Users\suraj\JavaProjects\hack-a-mae> npx renovate
+ INFO: Repository started (repository=itssuraj67/hack-a-mae)
+       "renovateVersion": "35.114.0"
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Dependency extraction complete (repository=itssuraj67/hack-a-mae, baseBranch=main)
+       "stats": {
+         "managers": {"maven": {"fileCount": 1, "depCount": 17}},
+         "total": {"fileCount": 1, "depCount": 17}
+       }
+ INFO: Branch created (repository=itssuraj67/hack-a-mae, branch=renovate/cglib-cglib-2.x)
+       "commitSha": "784f4779d15f89cf2820182f5e13748dfe969471"
+ INFO: PR created (repository=itssuraj67/hack-a-mae, branch=renovate/cglib-cglib-2.x)
+       "pr": 2,
+       "prTitle": "Update dependency cglib:cglib to v2.2.2"
+ INFO: Branch created (repository=itssuraj67/hack-a-mae, branch=renovate/commons-collections-commons-collections-3.x)
+       "commitSha": "516b349d5dec9a8b8e151ad4db759e4d0fa99266"
+ INFO: PR created (repository=itssuraj67/hack-a-mae, branch=renovate/commons-collections-commons-collections-3.x)
+       "pr": 3,
+       "prTitle": "Update dependency commons-collections:commons-collections to v3.2.2"
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Deleting orphan branch (repository=itssuraj67/hack-a-mae, branch=renovate/configure)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Repository finished (repository=itssuraj67/hack-a-mae)
+Ok to proceed? (y) y
+ INFO: Repository started (repository=itssuraj67/hack-a-mae)
+       "renovateVersion": "35.114.1"
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Dependency extraction complete (repository=itssuraj67/hack-a-mae, baseBranch=main)
+       "stats": {
+         "managers": {"maven": {"fileCount": 1, "depCount": 17}},
+         "total": {"fileCount": 1, "depCount": 17}
+       }
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Repository finished (repository=itssuraj67/hack-a-mae)
+       "cloned": true,
+       "durationMs": 9164
+PS C:\Users\suraj\JavaProjects\hack-a-mae> npx renovate
+ INFO: Repository started (repository=itssuraj67/hack-a-mae)
+       "renovateVersion": "35.114.1"
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Dependency extraction complete (repository=itssuraj67/hack-a-mae, baseBranch=main)
+       "stats": {
+         "managers": {"maven": {"fileCount": 1, "depCount": 17}},
+         "total": {"fileCount": 1, "depCount": 17}
+       }
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Repository finished (repository=itssuraj67/hack-a-mae)
+       "cloned": true,
+       "durationMs": 9867
+PS C:\Users\suraj\JavaProjects\hack-a-mae> npx renovate
+ INFO: Repository started (repository=itssuraj67/hack-a-mae)
+       "renovateVersion": "35.114.1"
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+         "total": {"fileCount": 1, "depCount": 17}
+       }
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Cannot ensure issue because issues are disabled in this repository (repository=itssuraj67/hack-a-mae)
+ INFO: Repository finished (repository=itssuraj67/hack-a-mae)
+       "cloned": true,
+       "durationMs": 8542
+PS C:\Users\suraj\JavaProjects\hack-a-mae>
+
+
