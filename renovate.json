@@ -5,7 +5,7 @@
       "matchPackageNames": [
         "spring"
       ],
-      "allowedVersion": ">=2.6"
+      "allowedVersions": ">=2.6"
     }
   ]
 }
